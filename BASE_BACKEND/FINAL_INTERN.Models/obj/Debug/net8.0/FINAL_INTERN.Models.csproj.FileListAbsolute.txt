@@ -1,0 +1,14 @@
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\bin\Debug\net8.0\FINAL_INTERN.Models.deps.json
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\bin\Debug\net8.0\FINAL_INTERN.Models.runtimeconfig.json
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\bin\Debug\net8.0\FINAL_INTERN.Models.dll
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\bin\Debug\net8.0\FINAL_INTERN.Models.pdb
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.csproj.AssemblyReference.cache
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.AssemblyInfoInputs.cache
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.AssemblyInfo.cs
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.csproj.CoreCompileInputs.cache
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.dll
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\refint\FINAL_INTERN.Models.dll
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.pdb
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\FINAL_INTERN.Models.genruntimeconfig.cache
+D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Models\obj\Debug\net8.0\ref\FINAL_INTERN.Models.dll

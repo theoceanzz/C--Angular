@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|d:\\term 6\\code\\base_backend\\final_intern.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|solutionrelative:final_intern.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|d:\\term 6\\code\\base_backend\\final_intern.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|solutionrelative:final_intern.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|d:\\term 6\\code\\base_backend\\final_intern.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|solutionrelative:final_intern.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C429ED9-B809-4A4E-91EB-BF9858656FFF}|FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj|d:\\term 6\\code\\base_backend\\final_intern.data\\finalinterndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C429ED9-B809-4A4E-91EB-BF9858656FFF}|FINAL_INTERN.Data\\FINAL_INTERN.Data.csproj|solutionrelative:final_intern.data\\finalinterndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|d:\\term 6\\code\\base_backend\\final_intern.webapi\\final_intern.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB7A47FE-5082-4F03-89A4-4550097089A6}|FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj|solutionrelative:final_intern.webapi\\final_intern.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4319B9BF-5BA3-416A-9202-03C89BFDCF92}|FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj|d:\\term 6\\code\\base_backend\\final_intern.models\\final_intern.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4319B9BF-5BA3-416A-9202-03C89BFDCF92}|FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj|solutionrelative:final_intern.models\\final_intern.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241105034350_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs",
+              "RelativeToolTip": "FINAL_INTERN.Data\\Migrations\\20241105034350_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:43:50.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "finalInternDbContext.cs",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\finalInternDbContext.cs",
+              "RelativeDocumentMoniker": "FINAL_INTERN.Data\\finalInternDbContext.cs",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\finalInternDbContext.cs",
+              "RelativeToolTip": "FINAL_INTERN.Data\\finalInternDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:39:53.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FINAL_INTERN.WebAPI\\appsettings.Development.json",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "FINAL_INTERN.WebAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T03:39:09.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241105033800_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs",
+              "RelativeDocumentMoniker": "FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs",
+              "RelativeToolTip": "FINAL_INTERN.Data\\Migrations\\20241105033800_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:38:01.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FINAL_INTERN.WebAPI",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+              "RelativeDocumentMoniker": "FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+              "RelativeToolTip": "FINAL_INTERN.WebAPI\\FINAL_INTERN.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T03:36:05.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FINAL_INTERN.WebAPI\\Program.cs",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\Program.cs",
+              "RelativeToolTip": "FINAL_INTERN.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:35:55.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FINAL_INTERN.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.WebAPI\\appsettings.json",
+              "RelativeToolTip": "FINAL_INTERN.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T03:35:21.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FINAL_INTERN.Models",
+              "DocumentMoniker": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+              "RelativeDocumentMoniker": "FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+              "ToolTip": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+              "RelativeToolTip": "FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T03:24:37.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
