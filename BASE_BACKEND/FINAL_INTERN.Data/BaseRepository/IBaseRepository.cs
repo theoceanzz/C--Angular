@@ -11,11 +11,11 @@ namespace FINAL_INTERN.Data.BaseRepository
     {
         Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> GetPagedAsync(int skip, int take);
-        Task<T> GetByIdAsync(Guid id);
-        Task<T> SearchByNameAsync(string name);
+        Task<T> GetByIdAsync(int id);
+        Task<IEnumerable<T>> SearchAsync(Expression<Func<T, bool>> predicate);
         Task AddAsync(T entity);
         Task UpdateAsync(T entity);
-        Task DeleteAsync(Guid id);
+        Task DeleteAsync(int id);
         Task<IEnumerable<T>> SortAsync(List<T> list, Expression<Func<T, object>> sortByProperty, bool asc);
     }
 }

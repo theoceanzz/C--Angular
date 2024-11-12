@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {}
+    "D:\\Term 6\\CODE\\Base_BackEnd\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {}
   },
   "projects": {
-    "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
+    "D:\\Term 6\\CODE\\Base_BackEnd\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+        "projectUniqueName": "D:\\Term 6\\CODE\\Base_BackEnd\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
         "projectName": "FINAL_INTERN.Models",
-        "projectPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
+        "projectPath": "D:\\Term 6\\CODE\\Base_BackEnd\\FINAL_INTERN.Models\\FINAL_INTERN.Models.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Term 6\\CODE\\BASE_BACKEND\\FINAL_INTERN.Models\\obj\\",
+        "outputPath": "D:\\Term 6\\CODE\\Base_BackEnd\\FINAL_INTERN.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

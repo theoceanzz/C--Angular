@@ -17,3 +17,4 @@ D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\refint\FINAL_
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.pdb
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.genruntimeconfig.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Business\obj\Debug\net8.0\ref\FINAL_INTERN.Business.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.Business\obj\Debug\net8.0\FINAL_INTERN.Business.sourcelink.json

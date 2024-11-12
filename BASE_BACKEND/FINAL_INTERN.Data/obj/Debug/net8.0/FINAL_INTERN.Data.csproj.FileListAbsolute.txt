@@ -15,3 +15,4 @@ D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Data\obj\Debug\net8.0\refint\FINAL_INTE
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Data\obj\Debug\net8.0\FINAL_INTERN.Data.pdb
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Data\obj\Debug\net8.0\FINAL_INTERN.Data.genruntimeconfig.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.Data\obj\Debug\net8.0\ref\FINAL_INTERN.Data.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.Data\obj\Debug\net8.0\FINAL_INTERN.Data.sourcelink.json

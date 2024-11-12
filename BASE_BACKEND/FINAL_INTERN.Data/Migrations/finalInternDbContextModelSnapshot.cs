@@ -32,12 +32,10 @@ namespace FINAL_INTERN.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Alt")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("alt");
@@ -51,7 +49,6 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
@@ -59,7 +56,6 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Img")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("img");
@@ -69,7 +65,6 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnName("isActive");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
@@ -78,7 +73,16 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int?>("RoleId")
+                    b.Property<string>("ResetPasswordToken")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("resetPasswordToken");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("datetime")
+                        .HasColumnName("resetTokenExpiry");
+
+                    b.Property<int>("RoleId")
                         .HasColumnType("int")
                         .HasColumnName("Role_ID");
 
@@ -88,7 +92,7 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id")
-                        .HasName("PK__Accounts__3214EC2721221F77");
+                        .HasName("PK__Accounts__3214EC270215FF01");
 
                     b.HasIndex("RoleId");
 
@@ -105,28 +109,24 @@ namespace FINAL_INTERN.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Alt")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("alt");
 
-                    b.Property<int?>("CategoriesOfCarId")
+                    b.Property<int>("CategoriesOfCarId")
                         .HasColumnType("int")
                         .HasColumnName("CategoriesOfCar_ID");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)")
                         .HasColumnName("description");
 
                     b.Property<string>("FuelType")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("Img")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("img");
@@ -136,7 +136,6 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnName("isActive");
 
                     b.Property<string>("Model")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -149,7 +148,6 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasDefaultValue(5);
 
                     b.Property<string>("Transmission")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
@@ -157,7 +155,7 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnType("date");
 
                     b.HasKey("Id")
-                        .HasName("PK__CarInfos__3214EC27A1D9C638");
+                        .HasName("PK__CarInfos__3214EC278791B85C");
 
                     b.HasIndex("CategoriesOfCarId");
 
@@ -167,19 +165,15 @@ namespace FINAL_INTERN.Data.Migrations
             modelBuilder.Entity("FINAL_INTERN.Models.Models.CategoriesOfCar", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("ID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
                     b.Property<string>("CategoryName")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id")
-                        .HasName("PK__Categori__3214EC27DBCA6BBE");
+                        .HasName("PK__Categori__3214EC27B4BDA787");
 
                     b.ToTable("CategoriesOfCar");
                 });
@@ -193,25 +187,20 @@ namespace FINAL_INTERN.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AccountId")
+                    b.Property<int>("AccountId")
                         .HasColumnType("int")
                         .HasColumnName("Account_ID");
 
-                    b.Property<string>("Date")
-                        .IsRequired()
-                        .HasMaxLength(40)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(40)")
-                        .HasColumnName("date");
+                    b.Property<DateTime?>("Dates")
+                        .HasColumnType("datetime")
+                        .HasColumnName("dates");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("email");
 
                     b.Property<string>("NameOfCustomer")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -220,7 +209,7 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnName("status");
 
                     b.HasKey("Id")
-                        .HasName("PK__Orders__3214EC27A35FB73B");
+                        .HasName("PK__Orders__3214EC273B98EC5C");
 
                     b.HasIndex("AccountId");
 
@@ -236,20 +225,19 @@ namespace FINAL_INTERN.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AccountId")
+                    b.Property<int>("AccountId")
                         .HasColumnType("int")
                         .HasColumnName("Account_ID");
 
-                    b.Property<int?>("CarId")
+                    b.Property<int>("CarId")
                         .HasColumnType("int")
                         .HasColumnName("Car_ID");
 
                     b.Property<string>("NameOfCar")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("OrderId")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int")
                         .HasColumnName("Order_ID");
 
@@ -262,7 +250,7 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnName("total");
 
                     b.HasKey("Id")
-                        .HasName("PK__OrderDet__3214EC272D446259");
+                        .HasName("PK__OrderDet__3214EC275E303269");
 
                     b.HasIndex("AccountId");
 
@@ -273,6 +261,109 @@ namespace FINAL_INTERN.Data.Migrations
                     b.ToTable("OrderDetails");
                 });
 
+            modelBuilder.Entity("FINAL_INTERN.Models.Models.Payment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("AccountId")
+                        .HasColumnType("int")
+                        .HasColumnName("Account_ID");
+
+                    b.Property<int?>("Amount")
+                        .HasColumnType("int")
+                        .HasColumnName("amount");
+
+                    b.Property<int?>("CarId")
+                        .HasColumnType("int")
+                        .HasColumnName("Car_ID");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int")
+                        .HasColumnName("Order_ID");
+
+                    b.Property<string>("PaymentCreatedAt")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("payment_created_at");
+
+                    b.Property<string>("PaymentsStatus")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("payments_status");
+
+                    b.Property<int?>("VnpAmount")
+                        .HasColumnType("int")
+                        .HasColumnName("vnp_Amount");
+
+                    b.Property<string>("VnpBankCode")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_BankCode");
+
+                    b.Property<string>("VnpBankTranNo")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_BankTranNo");
+
+                    b.Property<string>("VnpCartType")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_CartType");
+
+                    b.Property<string>("VnpOrderInfo")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_OrderInfo");
+
+                    b.Property<string>("VnpPayDate")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("vnp_PayDate");
+
+                    b.Property<string>("VnpResponseCode")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_ResponseCode");
+
+                    b.Property<string>("VnpTmnCode")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_TmnCode");
+
+                    b.Property<string>("VnpTransactionNo")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_TransactionNo");
+
+                    b.Property<string>("VnpTransactionStatus")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_TransactionStatus");
+
+                    b.Property<string>("VnpTxnRef")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("vnp_TxnRef");
+
+                    b.HasKey("Id")
+                        .HasName("PK__Payments__3214EC27AA80C635");
+
+                    b.HasIndex("AccountId");
+
+                    b.HasIndex("CarId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("Payments");
+                });
+
             modelBuilder.Entity("FINAL_INTERN.Models.Models.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -280,14 +371,58 @@ namespace FINAL_INTERN.Data.Migrations
                         .HasColumnName("ID");
 
                     b.Property<string>("NameOfRole")
-                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id")
-                        .HasName("PK__Roles__3214EC278E0ADF73");
+                        .HasName("PK__Roles__3214EC27D53A553F");
 
                     b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("FINAL_INTERN.Models.Models.Transaction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ID");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("AccountId")
+                        .HasColumnType("int")
+                        .HasColumnName("Account_ID");
+
+                    b.Property<string>("DayOfTransaction")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("day_of_transaction");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int")
+                        .HasColumnName("Order_ID");
+
+                    b.Property<double?>("Price")
+                        .HasColumnType("float")
+                        .HasColumnName("price");
+
+                    b.Property<int?>("Status")
+                        .HasColumnType("int")
+                        .HasColumnName("status");
+
+                    b.Property<double?>("Total")
+                        .HasColumnType("float")
+                        .HasColumnName("total");
+
+                    b.HasKey("Id")
+                        .HasName("PK__Transact__3214EC27CAF24BFF");
+
+                    b.HasIndex("AccountId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("FINAL_INTERN.Models.Models.Account", b =>
@@ -295,7 +430,8 @@ namespace FINAL_INTERN.Data.Migrations
                     b.HasOne("FINAL_INTERN.Models.Models.Role", "Role")
                         .WithMany("Accounts")
                         .HasForeignKey("RoleId")
-                        .HasConstraintName("FK__Accounts__Role_I__398D8EEE");
+                        .IsRequired()
+                        .HasConstraintName("FK__Accounts__resetT__398D8EEE");
 
                     b.Navigation("Role");
                 });
@@ -305,6 +441,7 @@ namespace FINAL_INTERN.Data.Migrations
                     b.HasOne("FINAL_INTERN.Models.Models.CategoriesOfCar", "CategoriesOfCar")
                         .WithMany("CarInfos")
                         .HasForeignKey("CategoriesOfCarId")
+                        .IsRequired()
                         .HasConstraintName("FK__CarInfos__Catego__3F466844");
 
                     b.Navigation("CategoriesOfCar");
@@ -315,6 +452,7 @@ namespace FINAL_INTERN.Data.Migrations
                     b.HasOne("FINAL_INTERN.Models.Models.Account", "Account")
                         .WithMany("Orders")
                         .HasForeignKey("AccountId")
+                        .IsRequired()
                         .HasConstraintName("FK__Orders__Account___4222D4EF");
 
                     b.Navigation("Account");
@@ -325,16 +463,19 @@ namespace FINAL_INTERN.Data.Migrations
                     b.HasOne("FINAL_INTERN.Models.Models.Account", "Account")
                         .WithMany("OrderDetails")
                         .HasForeignKey("AccountId")
+                        .IsRequired()
                         .HasConstraintName("FK__OrderDeta__Accou__45F365D3");
 
                     b.HasOne("FINAL_INTERN.Models.Models.CarInfo", "Car")
                         .WithMany("OrderDetails")
                         .HasForeignKey("CarId")
+                        .IsRequired()
                         .HasConstraintName("FK__OrderDeta__Car_I__46E78A0C");
 
                     b.HasOne("FINAL_INTERN.Models.Models.Order", "Order")
                         .WithMany("OrderDetails")
                         .HasForeignKey("OrderId")
+                        .IsRequired()
                         .HasConstraintName("FK__OrderDeta__Order__44FF419A");
 
                     b.Navigation("Account");
@@ -344,16 +485,63 @@ namespace FINAL_INTERN.Data.Migrations
                     b.Navigation("Order");
                 });
 
+            modelBuilder.Entity("FINAL_INTERN.Models.Models.Payment", b =>
+                {
+                    b.HasOne("FINAL_INTERN.Models.Models.Account", "Account")
+                        .WithMany("Payments")
+                        .HasForeignKey("AccountId")
+                        .HasConstraintName("FK__Payments__Accoun__4AB81AF0");
+
+                    b.HasOne("FINAL_INTERN.Models.Models.CarInfo", "Car")
+                        .WithMany("Payments")
+                        .HasForeignKey("CarId")
+                        .HasConstraintName("FK__Payments__Car_ID__49C3F6B7");
+
+                    b.HasOne("FINAL_INTERN.Models.Models.Order", "Order")
+                        .WithMany("Payments")
+                        .HasForeignKey("OrderId")
+                        .HasConstraintName("FK__Payments__Order___4BAC3F29");
+
+                    b.Navigation("Account");
+
+                    b.Navigation("Car");
+
+                    b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("FINAL_INTERN.Models.Models.Transaction", b =>
+                {
+                    b.HasOne("FINAL_INTERN.Models.Models.Account", "Account")
+                        .WithMany("Transactions")
+                        .HasForeignKey("AccountId")
+                        .HasConstraintName("FK__Transacti__Accou__4E88ABD4");
+
+                    b.HasOne("FINAL_INTERN.Models.Models.Order", "Order")
+                        .WithMany("Transactions")
+                        .HasForeignKey("OrderId")
+                        .HasConstraintName("FK__Transacti__Order__4F7CD00D");
+
+                    b.Navigation("Account");
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("FINAL_INTERN.Models.Models.Account", b =>
                 {
                     b.Navigation("OrderDetails");
 
                     b.Navigation("Orders");
+
+                    b.Navigation("Payments");
+
+                    b.Navigation("Transactions");
                 });
 
             modelBuilder.Entity("FINAL_INTERN.Models.Models.CarInfo", b =>
                 {
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("Payments");
                 });
 
             modelBuilder.Entity("FINAL_INTERN.Models.Models.CategoriesOfCar", b =>
@@ -364,6 +552,10 @@ namespace FINAL_INTERN.Data.Migrations
             modelBuilder.Entity("FINAL_INTERN.Models.Models.Order", b =>
                 {
                     b.Navigation("OrderDetails");
+
+                    b.Navigation("Payments");
+
+                    b.Navigation("Transactions");
                 });
 
             modelBuilder.Entity("FINAL_INTERN.Models.Models.Role", b =>

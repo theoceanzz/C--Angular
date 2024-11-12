@@ -1,5 +1,13 @@
 
+using FINAL_INTERN.Business.BaseService;
+using FINAL_INTERN.Business.OrderDetailDetailService;
+using FINAL_INTERN.Business.OrderService;
+using FINAL_INTERN.Business.SendEmail;
+using FINAL_INTERN.Business.VNPayService;
 using FINAL_INTERN.Data;
+using FINAL_INTERN.Data.BaseRepository;
+using FINAL_INTERN.Data.OrderDetailRepository;
+using FINAL_INTERN.Data.OrderRepository;
 using FINAL_INTERN.Models.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +33,16 @@ namespace FINAL_INTERN.WebAPI
             builder.Services.AddDbContext<finalInternDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+            builder.Services.Configure<MailSetting>(builder.Configuration.GetSection("MailSetting"));
+
+            builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            builder.Services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
+            builder.Services.AddTransient<SendEmailService>();
+            builder.Services.AddTransient<VNPayService>();
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
 
             var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 
@@ -75,16 +93,16 @@ namespace FINAL_INTERN.WebAPI
     });
             });
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAngularApp",
-                    builder =>
-                    {
-                        builder.WithOrigins("http://localhost:4200")
-                               .AllowAnyHeader()
-                               .AllowAnyMethod();
-                    });
-            });
+            //builder.Services.AddCors(options =>
+            //{
+            //    options.AddPolicy("AllowAngularApp",
+            //        builder =>
+            //        {
+            //            builder.WithOrigins("http://localhost:4200")
+            //                   .AllowAnyHeader()
+            //                   .AllowAnyMethod();
+            //        });
+            //});
 
             builder.Services.AddControllers();
 
@@ -110,7 +128,7 @@ namespace FINAL_INTERN.WebAPI
 
 
             app.UseRouting();
-            app.UseCors("AllowAngularApp");
+            //app.UseCors("AllowAngularApp");
             app.UseAuthentication();
             app.UseAuthorization();
 

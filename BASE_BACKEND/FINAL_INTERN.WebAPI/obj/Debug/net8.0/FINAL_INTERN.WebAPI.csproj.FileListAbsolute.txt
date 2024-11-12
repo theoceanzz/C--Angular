@@ -130,7 +130,6 @@ D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.We
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.AssemblyInfoInputs.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.AssemblyInfo.cs
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.csproj.CoreCompileInputs.cache
-D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\staticwebassets.development.json
@@ -146,3 +145,9 @@ D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\refint\FINAL_IN
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.pdb
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.genruntimeconfig.cache
 D:\Term 6\CODE\BASE_BACKEND\FINAL_INTERN.WebAPI\obj\Debug\net8.0\ref\FINAL_INTERN.WebAPI.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.sourcelink.json
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\bin\Debug\net8.0\MailKit.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\bin\Debug\net8.0\MimeKit.dll
+D:\Term 6\CODE\Base_BackEnd\FINAL_INTERN.WebAPI\obj\Debug\net8.0\FINAL_INTERN.WebAPI.MvcApplicationPartsAssemblyInfo.cs

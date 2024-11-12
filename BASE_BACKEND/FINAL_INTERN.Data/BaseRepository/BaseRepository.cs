@@ -32,7 +32,7 @@ namespace FINAL_INTERN.Data.BaseRepository
             return await _context.Set<T>().ToListAsync();
         }
 
-        public async Task<T?> GetByIdAsync(Guid id)
+        public async Task<T?> GetByIdAsync(int id)
         {
             return await _context.Set<T>().FindAsync(id);
         }
@@ -53,7 +53,7 @@ namespace FINAL_INTERN.Data.BaseRepository
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task DeleteAsync(int id)
         {
 
             var entity = await _context.Set<T>().FindAsync(id);
@@ -69,11 +69,11 @@ namespace FINAL_INTERN.Data.BaseRepository
             }
         }
 
-        public async Task<T> SearchByNameAsync(string name)
+        public async Task<IEnumerable<T>> SearchAsync(Expression<Func<T, bool>> predicate)
         {
-
-            return await _context.Set<T>().FindAsync(name);
+            return await _context.Set<T>().Where(predicate).ToListAsync();
         }
+
 
         public async Task<IEnumerable<T>> SortAsync(List<T> list, Expression<Func<T, object>> sortByProperty, bool asc)
         {
